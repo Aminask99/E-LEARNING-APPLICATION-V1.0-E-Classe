@@ -26,36 +26,40 @@
       .sign-in{
         text-align: center;
       }
-      
+      .paragraph{
+        font-size: 100px;
+      }
+
       </style>
     </head>
   
 <body>
+  <div class="mx-auto pt-5" >
 
-<div class="container rounde w-25 p-3 bg-white ">
+<div class="container rounde w-25 p-3 bg-white pt-7 "  >
     <form>
-      <h1 class="border-start border-info border-5 fw-bold ms-5"> E-classe </h1>
+      <h3 class="border-start border-info border-5 fw-bold ms-5   "> E-classe </h3>
    
-      <h6 class="sign-in fw-bold d-flex justify-content-center  fs-3" > SIGN IN</h6>
-      <p class="paragraph d-flex justify-content-center fs-6">Enter your credentials to access your account</p>
+      <h3 class="sign-in fw-bold d-flex justify-content-center  fs-5 chadow m-4" > SIGN IN</h3>
+      <p class="paragraph d-flex justify-content-center fs-6" >Enter your credentials to access your account</p>
     
         <div class="mb-3">
           <label  class="form-label ">Email</label>
-          <input   class="form-control"   value="Entrer your addres " >
+          <input   class="form-control text-muted"   value="Entrer your addres " >
           <!-- <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> -->
         </div>
         <div class="mb-3">
           <label  class="form-label ">Password</label>
-          <input  class="form-control " value="Entrer your Password  ">
+          <input  class="form-control text-muted " value="Entrer your Password  ">
         </div>
         
-        <button type="button" class="btn btn-info " style="width: 393px;">SIGN IN </button>
+        <button type="button" class="btn btn-info text-white fs-6 " style="width: 389px;">SIGN IN </button>
         <p class="text-muted chadow m-2  d-flex justify-content-center "> Forger your password?<a href="#" class="text-info " >Reset password </a>.
         </p>
 <!-- <button type="submit" class="btn btn-primary">Submit</button> -->
       </form>
     </div>
-    
+  </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
