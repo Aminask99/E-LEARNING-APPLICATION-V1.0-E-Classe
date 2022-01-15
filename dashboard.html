@@ -1,105 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <style>
-     .nav__bar{
-      width: 250px;
-       height:610px ;
-       background-color: #FAFFC1;
-     }
-     .logo{
-       
-       width: 120px;
-       margin-left: 36px;
-       
-     }
-.paragraph{
-  transform: translateY(-31Px);
-}
-     
-    </style>
-</head>
-<body>
-  <div class="d-flex flex-column flex-shrink-0 p-3 text-darck  nav__bar ">
-    <h3 class="border-start border-info border-5 fw-bold  chadow  "> E-classe </h3>
-   
-    <img class="logo rounded-circle m-5 " src="youcode.png " alt="logo">
-    <div class="paragraph ">
-    <p class="fs-6 fw-bold mb-1 text-center">Admin name</p>
-    <p class="fs-6 fw-bold  text-center text-info">Admin</p>
-  </div>
-  <ul class="nav nav-pills flex-column mb-auto">
-    <li class="nav-item text-center">
-      <a class="navbar-brand" href="#">Home</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item"> </li>
-          
 
-        </ul>
-        <li class="nav-item">
-          <a class="navbar-brand" href="#">Course</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item"> </li>
-            </ul>
-            <li class="nav-item">
-              <a class="navbar-brand" href="#">Students</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                  <li class="nav-item"> </li>
-                  
-                </ul>
-                <li class="nav-item">
-                  <a class="navbar-brand" href="#">Payment</a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                      <li class="nav-item"> </li>
-                      
-                    </ul>
-                <li class="nav-item">
-                  <a class="navbar-brand" href="#">Report</a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                      <li class="nav-item"> </li>
-                      
-                    </ul>
-                    <li class="nav-item">
-                      <a class="navbar-brand" href="#">Settings</a>
-                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                      </button>
-                      <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav">
-                          <li class="nav-item"> </li>
-                          
-                        </ul>
-      </div>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <style>
+    .nav__bar {
+      width: 250px;
+      height: 610px;
+      background-color: #FAFFC1;
+      transform: translateY(-60Px);
+    }
+
+    .logo {
+
+      width: 120px;
+      margin-left: 36px;
+
+    }
+    .navBAAr{
+      width: 960px;
+      /* border: 5px solid; */
+      margin-left: 256px;
+      
+    }
+
+    .paragraph {
+      transform: translateY(-31Px);
+    }
+  </style>
+</head>
+
+<body>
+  
+  <nav class="navbar navbar-light bg-light navBAAr">
+    <div class="container-fluid">
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
     </div>
   </nav>
-       
-      </div>
+  <div class="d-flex flex-column flex-shrink-0 p-3 text-darck  nav__bar ">
+    <h3 class="border-start border-info border-5 fw-bold  chadow  "> E-classe </h3>
+
+    <img class="logo rounded-circle m-5 " src="youcode.png " alt="logo">
+    <div class="paragraph ">
+      <p class="fs-6 fw-bold mb-1 text-center">Admin name</p>
+      <p class="fs-6 fw-bold  text-center text-info">Admin</p>
+    </div>
+    <div class="List">
+    <ul class="nav nav-pills flex-column mb-auto">
+      <li class="nav-item text-center ">
+        <a class="navbar-brand text-dark" href="#">Home</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item"> </li>
+
+
+          </ul>
+      <li class="nav-item text-center">
+        <a class="navbar-brand text-dark" href="#">Course</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item"> </li>
+          </ul>
+      <li class="nav-item text-center">
+        <a class="navbar-brand text-dark" href="#">Students</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item"> </li>
+
+          </ul>
+      <li class="nav-item text-center">
+        <a class="navbar-brand text-dark" href="#">Payment</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item"> </li>
+
+          </ul>
+      <li class="nav-item text-center">
+        <a class="navbar-brand text-dark" href="#">Report</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item"> </li>
+
+          </ul>
+      <li class="nav-item text-center">
+        <a class="navbar-brand text-dark" href="#">Settings</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item"> </li>
+
+          </ul>
+        </div>
+        </div>
+  </div>
+  </nav>
+
+  </div>
 
 
 
@@ -111,6 +139,9 @@
 
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
