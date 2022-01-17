@@ -1,0 +1,14 @@
+td{
+    text-align: center;
+    font-size: 0.9vw;
+    padding: 0.7vw;
+}
+
+th{
+    font-size: 0.8vw;
+}
+
+th img{
+    margin-top: 0px;
+    max-width: 5vw;
+}
