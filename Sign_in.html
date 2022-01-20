@@ -24,14 +24,20 @@
   }
 
   .contain {
+    /* width: 500px; */
     border-radius: 20px;
-    height: 459px;
+    height: 569px;
+    
   }
 
-  
   .href{
     font-size: 10px;
   }
+  @media screen and (max-width: 576px) {
+    body{
+    background: white;
+  }
+}
 </style>
 </head>
 
@@ -39,8 +45,8 @@
   <!-- Start login page -->
   <div class=" pt-5 cont row-sm">
     <!-- h1 -->
-    <div class="container rounde w-25  p-3 bg-white pt-7  contain row-sm  ">
-      <form>
+    <div class="container rounde w-25  p-3 bg-white col-8 col-md-6 col-lg-4 pt-7  contain row-sm w-50 ">
+      <form class="formlair ps-3 pe-3">
         <h3 class="border-start border-info border-5 fw-bold  chadow m-3 "> E-classe </h3>
         <h3 class="sign-in fw-bold d-flex justify-content-center  fs-5 chadow m-"> SIGN IN</h3>
         <!-- paragraph -->

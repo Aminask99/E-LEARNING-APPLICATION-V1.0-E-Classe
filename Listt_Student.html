@@ -13,119 +13,27 @@
   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
     integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
   <style>
-    .List_ {
+    .list {
       transform: translateY(30Px);
       margin-left: 30px;
       gap: 19px;
 
     }
 
-
-    .imgNave {
-      width: 60px;
-
-    }
-
-    .formlair {
-
-      width: 250px;
-
-    }
-
-    .cards .carditems {
-      border-radius: 8px;
-
-      width: 200px;
-      height: 150px;
-    }
-
-    .cards {
-
-      position: absolute;
-      left: 27%;
-    }
-
-    .carditems--blue {
-      background-color: #F0F9FF;
-    }
-
-    .carditems--blue i {
-      color: #74C1ED;
-    }
-
-    .carditems--rose {
-      background-color: #FEF6FB;
-    }
-
-    .carditems--rose i {
-      color: #EE95C5;
-    }
-
-    .carditems--yellow {
-      background-color: #FEFBEC;
-    }
-
-    .carditems--yellow i {
-      color: #00C1FE;
-    }
-
-    .carditems--gradient {
-      background: linear-gradient(110.42deg, #00C1FE 18.27%, #FAFFC1 91.84%);
-    }
-
-    .card__items--gradient i {
-      color: #FFFFFF;
-    }
-
-    #nbr {
-      position: absolute;
-      right: 10px;
-      bottom: 10px;
-    }
-
-    .econs {
-      width: 27px;
-    }
-
-    .econs2 {
-      width: 27px;
-    }
-
-    .econsNav {
-      margin-left: 300px;
-    }
-
-    .card_1 {
-      position: absolute;
-      width: 255px;
-      height: 157px;
-      left: 300px;
-      top: 90px;
-
-      background: #F0F9FF;
-      border-radius: 8px;
-    }
-
     .List_ :hover {
       background-color: #00C1FE
     }
 
-    .logoo {
-      width: 11vw;
-      height: 18vh;
-      margin-left: 5px;
-    }
+
 
     .side-bar {
       background-color: #fff;
     }
 
-    .divs1 {
-      width: 17vw;
-      height: 3vw;
-      position: relative;
-      border-bottom: 1px solid #E5E5E5;
+    .image {
+      width: 100px;
     }
+
 
     @media screen and (min-width: 576px) {
       .side-bar {
@@ -152,10 +60,10 @@
 <body>
 
 
-  <!------------------------------------------------ saidbar ---------------------------------------------->
-  <div class="container-fluid  position-sticky top-0 start-0">
+  <!--********************************************** saidbar **********************************************-->
+  <main class="container-fluid  position-sticky top-0 start-0">
     <div class="row flex-nowrap">
-      <!-- position-absolute top-0 start-0 -->
+
       <div class="col-auto col-md-3  col-lg-2  col-xl-2 px-sm-2 px-0   side-bar">
         <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2  min-vh-100">
           <h3 class="border-start border-info border-5 fw-bold  chadow fs-5 text-dark fs-3  d-flex "> E-C<span
@@ -163,7 +71,7 @@
 
           <div class="d-inline-flex flex-column  justify-content-center row">
 
-            <img class="logoo rounded-circle  d-none d-sm-block" src="youcode.png " alt="logo">
+            <img class="logoo rounded-circle  d-none d-sm-block mt-4" src="youcode.png " alt="logo">
 
             <div class="paragraph ">
               <p class="fs-6 fw-bold mb-1 text-center text-dark   d-none d-sm-block ">Admin name</p>
@@ -172,11 +80,11 @@
 
           </div>
 
-          <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start  List_  >
-                        <li class=" nav-item ">
-                            <a href=" index.html" class="nav-link align-middle px-0">
-            <i class="fas fa-home text-dark"></i> <span class="ms-1 d-none d-sm-inline text-dark  ">Home</span>
-            </a>
+          <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start list ">
+            <li class=" nav-item ">
+              <a href="index.html" class="nav-link align-middle px-0">
+                <i class="fas fa-home text-dark"></i> <span class="ms-1 d-none d-sm-inline text-dark  ">Home</span>
+              </a>
             </li>
             <li class="nav-item   ">
               <a href="#" class="nav-link align-middle px-0 ">
@@ -184,13 +92,13 @@
               </a>
             </li>
             <li class="nav-item   ">
-              <a href="./Listt_Student.html" class="nav-link align-middle px-0 ">
+              <a href="#" class="nav-link align-middle px-0 ">
                 <i class="fas fa-graduation-cap text-dark"></i> <span
                   class="ms-1 d-none d-sm-inline text-dark ">Students</span>
               </a>
             </li>
             <li class="nav-item   ">
-              <a href="./payment.html" class="nav-link align-middle px-0 ">
+              <a href="#" class="nav-link align-middle px-0 ">
                 <i class="fas fa-dollar-sign text-dark"></i><span
                   class="ms-1 d-none d-sm-inline text-dark ">Payment</span>
               </a>
@@ -208,9 +116,9 @@
               </a>
             </li>
           </ul>
-          <!----------------------------------------------LOGOUT --------------------------------->
+          <!--********************************************** LOGOUT **********************************************-->
           <div class="Logout">
-            <a href="#" class="nav-link align-middle px-0  m-4 ">
+            <a href="#" class="nav-link align-middle px-0   ">
               <span class="ms-1 d-none d-sm-inline text-dark fs-5">Logout </span> <i
                 class="fas fa-sign-out-alt text-dark"></i> </a>
           </div>
@@ -220,9 +128,11 @@
 
 
 
-      <div class="col py-3 ">
 
-        <!------------------------------------------ NAVBAR ---------------------------------------------->
+
+      <div class="col py-3">
+
+        <!--********************************************** NAVBAR **********************************************-->
 
         <div class=" navbar navbar-light  bg-white p-2 col-12  d-flex justify-content-between ">
 
@@ -247,11 +157,11 @@
             <i class="far fa-sort text-info me-3 h5 "></i>
             <button type="button" class="btn btn-info    text-light">ADD NEW STUDENT</button>
           </div>
-          <!-- <hr class="bg-dark"> -->
+        
         </div>
         <div class="divs2">
           <div id="page-content-wrapper">
-            <!------------------------------------------- tableau ------------------------------------>
+            <!--********************************************** TABL **********************************************-->
             <div class="bg-light navbar-light">
 
               <div class="container-fluid table-responsive">
@@ -270,7 +180,7 @@
                   <tbody>
                     <tr class="bg-white mb-3 align-middle border-5 border-light">
                       <th scope="row">
-                        <img src="./STUDENT.png" alt="img_table" />
+                        <img class="image " src="STUDENT.png" alt="img_table">
                       </th>
                       <td>username</td>
                       <td>user@gmail.com</td>
@@ -287,9 +197,9 @@
                       </td>
                     </tr>
 
-                    <tr id="tr" class="bg-white align-middle border-5 border-light">
+                    <tr class="bg-white align-middle border-5 border-light">
                       <th scope="row">
-                        <img src="./STUDENT.png" alt="img_table" />
+                        <img class="image" src="STUDENT.png" alt="img_table">
                       </th>
                       <td>username</td>
                       <td>karthi@gmail.com</td>
@@ -306,9 +216,9 @@
                       </td>
                     </tr>
 
-                    <tr id="tr" class="bg-white align-middle border-5 border-light">
+                    <tr class="bg-white align-middle border-5 border-light">
                       <th scope="row">
-                        <img src="./STUDENT.png" alt="img_table" />
+                        <img class="image"src="STUDENT.png" alt="img_table">
                       </th>
                       <td>username</td>
                       <td>karthi@gmail.com</td>
@@ -325,9 +235,9 @@
                       </td>
                     </tr>
 
-                    <tr id="tr" class="bg-white align-middle border-5 border-light">
+                    <tr class="bg-white align-middle border-5 border-light">
                       <th scope="row">
-                        <img src="./STUDENT.png" alt="img_table" />
+                        <img class="image " src="STUDENT.png" alt="img_table">
                       </th>
                       <td>username</td>
                       <td>karthi@gmail.com</td>
@@ -344,9 +254,9 @@
                       </td>
                     </tr>
 
-                    <tr id="tr" class="bg-white align-middle border-5 border-light">
+                    <tr class="bg-white align-middle border-5 border-light">
                       <th scope="row">
-                        <img src="./STUDENT.png" alt="img_table" />
+                        <img class="image" src="STUDENT.png" alt="img_table">
                       </th>
                       <td>username</td>
                       <td>karthi@gmail.com</td>
@@ -363,9 +273,9 @@
                       </td>
                     </tr>
 
-                    <tr id="tr" class="bg-white align-middle border-5 border-light">
+                    <tr class="bg-white align-middle border-5 border-light">
                       <th scope="row">
-                        <img src="./STUDENT.png" alt="img_table" />
+                        <img class="image " src="STUDENT.png" alt="img_table">
                       </th>
                       <td>username</td>
                       <td>karthi@gmail.com</td>
@@ -386,9 +296,12 @@
               </div>
             </div>
           </div>
+        </div>
+      </main>
           <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
             crossorigin="anonymous"></script>
+    
 </body>
 
 </html>
